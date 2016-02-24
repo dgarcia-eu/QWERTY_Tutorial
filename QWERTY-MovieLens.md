@@ -113,9 +113,9 @@ kable(x=dfstats, caption="Data summary for MovieLens", digits=10)
 
 Table: Data summary for MovieLens
 
-             Number of movies   Number of ratings   Mean average rating    mean RSR
-----------  -----------------  ------------------  --------------------  ----------
-MovieLens               33574            22821222              3.098708   0.4239799
+|          |   Number of movies |  Number of ratings |  Mean average rating  |  mean RSR |
+| ----------  | ----------------- | ------------------ | -------------------- | ---------- |
+| MovieLens      |         33574      |      22821222       |       3.098708 |  0.4239799 |
 
 ```r
 #histograms of Average Ratings and RSR
@@ -139,7 +139,6 @@ htmlreg(linModel, digits=6, bold=0.05, custom.model.names="OLS",caption="OLS res
 ```
 
 
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <table cellspacing="0" align="center" style="border: none;">
 <caption align="bottom" style="margin-top:0.3em;">OLS results</caption>
 <tr>
@@ -220,7 +219,6 @@ htmlreg(list(rmodel,linModel),digits=6, bold=0.05, custom.model.names=c("Randomi
 ```
 
 
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <table cellspacing="0" align="center" style="border: none;">
 <caption align="bottom" style="margin-top:0.3em;">Randomized and OLS results</caption>
 <tr>
@@ -339,7 +337,6 @@ htmlreg(list(linModel,linModel2, linModel3, linModel4), digits=6, bold=0.05, cus
 ```
 
 
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <table cellspacing="0" align="center" style="border: none;">
 <caption align="bottom" style="margin-top:0.3em;">Extended model results</caption>
 <tr>
@@ -478,7 +475,6 @@ htmlreg(list(linModel,linModel2,linModel3,linModel4), digits=6, bold=0.05, custo
 ```
 
 
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <table cellspacing="0" align="center" style="border: none;">
 <caption align="bottom" style="margin-top:0.3em;">Extended model results</caption>
 <tr>
